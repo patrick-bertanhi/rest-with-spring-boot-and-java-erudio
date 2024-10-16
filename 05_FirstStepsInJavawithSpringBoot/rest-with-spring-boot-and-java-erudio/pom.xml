@@ -42,8 +42,18 @@
 		
 		<dependency>
 		<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>\
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		
+		<dependency>
+		<groupId>org.flywaydb</groupId>
+			<artifactId>flywaydb-mysql</artifactId>
+		</dependency>
+		
+		<dependency>
+		<groupId>org.flywaydb</groupId>
+			<artifactId>flywaydb-core</artifactId>
 		</dependency>
 		
 	  <dependency>

@@ -18,7 +18,7 @@ import br.com.erudio.data.vo.v1.PersonVO;
 import br.com.erudio.data.vo.v2.PersonVOV2;
 import br.com.erudio.services.PersonServices;
 
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 @RestController
 public class PersonController {
 	
